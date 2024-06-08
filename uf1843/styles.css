@@ -26,6 +26,7 @@ body {
     padding: 20px 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     flex-direction: column;
 }
@@ -36,4 +37,31 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+@media (min-width: 768px){
+
+    .body{
+        background-image: url("raspitas.jpg");
+    }
+
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 992px){
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+        
+    }
+
+    .gallery img {
+        max-width: initial;
+    }
 }
