@@ -16,7 +16,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #d5d5df;
+    background-color: #585891;
     color: #fff;
     border-bottom: 4px solid #fdb347;
 }
@@ -24,6 +24,10 @@ body {
 .gallery {
     margin: 0 auto;
     padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
 }
 
 .gallery img {
