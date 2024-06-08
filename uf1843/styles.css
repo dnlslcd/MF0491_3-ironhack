@@ -28,7 +28,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .gallery img {
@@ -41,7 +42,7 @@ body {
 
 @media (min-width: 768px){
 
-    .body{
+    body{
         background-image: url("raspitas.jpg");
     }
 
