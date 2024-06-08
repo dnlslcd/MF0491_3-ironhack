@@ -7,7 +7,12 @@
  */
 
 function loveDifference(age1, age2) {
-
+    
+    let ageDifference = age1 - age2;
+    if (ageDifference < 0){
+        ageDifference = -ageDifference;
+    }
+    return ageDifference;
 }
 
 // Prueba 1: Diferencia básica
@@ -23,3 +28,4 @@ console.log(loveDifference(30, 30)); // Resultado esperado: 0
 console.log(loveDifference(100, 80)); // Resultado esperado: 20
 
 // BONUS: Implementa la función en una sola línea
+    // return Math.abs(age1 - age2);
