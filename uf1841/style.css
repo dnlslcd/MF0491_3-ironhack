@@ -36,4 +36,11 @@ div {
 .warning {
     background-color: #ffffcc;
     border-left: solid 8px #ffeb3b;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: -10px;
+    right: -10px;
 }
